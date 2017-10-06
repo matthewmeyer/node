@@ -21,7 +21,7 @@
 
 'use strict';
 const common = require('../common');
-const fixturesDir = common.fixturesDir;
+const fixturesDir = require('../common/fixtures').fixturesDir;
 const assert = require('assert');
 const path = require('path');
 
